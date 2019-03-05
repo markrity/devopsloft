@@ -6,4 +6,4 @@ install:
     - pip install Flask-WTF
     - pip install coveralls
 script:
-    - flake8 .
+    - flake8 tests/member_test.py
